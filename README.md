@@ -94,6 +94,9 @@ Preliminary models include Random Forest, SVC, Logistic Regression, and Naive Ba
 
 Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my best model was a logistic regression with test f1 of .58 and balanced accuracy score of .77.
 
+<br />
+<div align="center"><img src='./img/modeltesting.png' height=350 width=800></div>
+<br />
 <br /></p>
 
 <!-- NEXT STEPS -->
@@ -113,7 +116,7 @@ Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my 
 
 * Looking at cosine similarity for products and building a product recommender based on previous products ordered.
 * Clustering buyers based on their buying habits.
-
+* Building an app that allows a user to select the item they want to model for.
 <br /></p>
 
 
