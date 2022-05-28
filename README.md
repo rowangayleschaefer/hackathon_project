@@ -99,6 +99,7 @@ Given more time to complete the project, here are some additional ideas I would 
 
 * PCA to reduce dimensionality, given the high number of features(products) in the dataset. (Or MCA, if using boolean data.)
 * A deeper dive into feature importances for each model.
+* Look into additional strategies to balance data.
 * Looking at cosine similarity for products and building a product recommender based on previous products ordered.
 * Pulling in additional data or training a model to create categories and subcategories for each item.
 * Clustering buyers based on their buying habits.
