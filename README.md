@@ -84,7 +84,7 @@ This was a very unique dataset - I would have liked to have additional info on t
 <!-- DATA CLEANING -->
 #### Data Cleaning & EDA
 
-Data cleaning and EDA sections are located in the first half of the [project file.](https://github.com/rowangayleschaefer/hackathon_project/blob/main/hackathon.ipynb) This section took the most time to complete. Summary statistics for purchases are provided. 
+Data cleaning and EDA sections are located in the first half of the [project file.](https://github.com/rowangayleschaefer/hackathon_project/blob/main/hackathon.ipynb) This section took the most time to complete. Summary statistics for purchases and customers are provided; as well as a breakdown of most popular products.
 
 </br><p>
 
