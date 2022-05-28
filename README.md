@@ -80,6 +80,8 @@ The data I chose was a dataset on customer transactions from 2010-2011 for an on
 
 Data cleaning and EDA sections are located in the first half of the .ipynb file. This section took the most time to complete. Summary statistics for purchases are provided. 
 
+</br><p>
+
 <!-- MODELING -->
 #### Modeling
 
