@@ -118,6 +118,7 @@ Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my 
 
 * Looking at cosine similarity for products and building a product recommender based on previous products ordered.
 * Clustering buyers based on their buying habits.
+* Building out an app that allows a user to select the item they want to model for.
 
 <br /></p>
 
