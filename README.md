@@ -46,7 +46,7 @@ This was a very unique dataset - I would have liked to have additional info on t
 
 ### Software Requirements
 
-Note that some formatting for tables and vizualizations will not render unless you run this on your local machine, rather than viewing project via github.
+Note that some formatting for .ipynb markdown, tables, and vizualizations will not render unless you run this on your local machine, rather than viewing project via github.
 
 To run this code, you will need python installed (3.8.0 or higher recommended). <br />
 
@@ -93,8 +93,13 @@ Multiple classification models are tried to predict the likelihood of a customer
 Preliminary models include Random Forest, SVC, Logistic Regression, and Naive Bayes, among others.
 
 Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my best model was a logistic regression with test f1 of .58 and balanced accuracy score of .77.
+<br />
+  <br />
+  
+<div align="center"><img src='./img/modeltesting.png' width=805 height=345></div>
 
 <br /></p>
+  <br /></p>
 
 <!-- NEXT STEPS -->
 ### Next Steps
