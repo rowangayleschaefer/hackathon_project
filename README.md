@@ -90,6 +90,19 @@ Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my 
 
 <br /></p>
 
+<!-- NEXT STEPS -->
+#### Next Steps
+
+Given more time to complete the project, here are some additional ideas I would have explored:
+
+* PCA to reduce dimensionality, given the high number of features(products) in the dataset. (Or MCA, if using boolean data.)
+* A deeper dive into feature importances for each model.
+* Looking at cosine similarity for products and building a product recommender based on previous products ordered.
+* Pulling in additional data or training a model to create categories and subcategories for each item.
+* Clustering buyers based on their buying habits.
+
+<br /></p>
+
 
 <!-- CONTRIBUTING -->
 ## Contributing
