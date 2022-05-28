@@ -27,7 +27,7 @@
 
 ## About the Project
 
-This project was completed individually as part of a full-day hackathon for GA's Data Science Immersive. Guidelines for this project are available [in the Project-Instructions file](https://github.com/rowangayleschaefer/hackathon_project/blob/main/Project-Instructions.md). 
+This project was completed individually as part of a full-day hackathon for GA's Data Science Immersive. Guidelines for this project are available  in the [Project-Instructions file](https://github.com/rowangayleschaefer/hackathon_project/blob/main/Project-Instructions.md). 
 
 Project was completed in a working day (the presentation and readme were completed afterward for use in portfolio.) The [.ipynb file](https://github.com/rowangayleschaefer/hackathon_project/blob/main/hackathon.ipynb) provides summary statistics on a dataset of buyer transactions from an online retailer, and multiple machine learning models are used to predict probability of customers buying a specific item based on their past transaction history.
 
