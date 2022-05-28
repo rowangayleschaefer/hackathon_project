@@ -31,8 +31,6 @@ This project was completed individually as part of a full-day solo hackathon for
 
 Project was completed in a working day (the presentation and readme were completed afterward for use in portfolio.) The [.ipynb file](https://github.com/rowangayleschaefer/hackathon_project/blob/main/hackathon.ipynb) provides summary statistics on a dataset of buyer transactions from an online retailer, and multiple machine learning models are used to predict probability of customers buying a specific item based on their past transaction history.
 
-This was a very unique dataset - I would have liked to have additional info on the type of retailer this was from, because some of the products were unusual!
-
 <br />
 
   
@@ -69,7 +67,9 @@ Libraries used include:
 ### Data
 The data I chose was a dataset on customer transactions from 2010-2011 for an online retailer, made public by the UC Irvine Machine Learning Repository. Documentation and full dataset can be downloaded [here.](https://archive.ics.uci.edu/ml/datasets/online+retail) 
 
+Features in the original dataset included <code>customerid</code>, <code>invoicedate</code>, <code>quantity</code>, <code>price per unit</code>, and <code>product description</code>. I did not have much information on product categories or customer demographics, but I did have a <code>country</code> field to work with.
 
+This was a very unique dataset - I would have liked to have additional info on the type of retailer this was from, or their advertising data, because some of the products were unusual!
 <p align="right">(<a href="#top">back to top</a>)</p>
 <br />
 
@@ -93,7 +93,7 @@ Data cleaning and EDA sections are located in the first half of the [project fil
 
 The modeling section is located in the second half of the [project file.](https://github.com/rowangayleschaefer/hackathon_project/blob/main/hackathon.ipynb)
   
-Multiple classification models were tested to predict the likelihood of a customer purchasing a popular item, 'ASSORTED COLOUR BIRD ORNAMENT' based on data about their other purchases. I chose this item for modeling based on EDA because it was purchased by a large number of individual buyers, across a wide variety of countries.
+Multiple classification models were tested to predict the likelihood of a customer purchasing a popular item, 'ASSORTED COLOUR BIRD ORNAMENT' based on data about their other purchases. I chose this item for modeling based on EDA because it was purchased by a large number of individual buyers, across a wide variety of countries, and the item had maintained popularity over time.
   
 * My data had imbalanced classes, I chose to combat this by using balanced_accuracy, f1_score, and class weights with each model due to time constraints. Preliminary models include Random Forest, SVC, Logistic Regression, and Naive Bayes.
 
@@ -128,7 +128,8 @@ Multiple classification models were tested to predict the likelihood of a custom
 
 * Looking at cosine similarity for products and building a product recommender based on previous products ordered.
 * Clustering buyers based on their buying habits, or doing customer segmentation with available data.
-* Building an app that allows a user to select the item they want to model for.
+* Building an app that allows a user to select the product they want to model for.
+* Incorporating order dates and times into my modeling.
 <br /></p>
 <br /><p>
 
