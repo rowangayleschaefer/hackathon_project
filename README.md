@@ -115,7 +115,7 @@ Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my 
 **Additionally, here some other ideas that I could explore for this dataset:**
 
 * Looking at cosine similarity for products and building a product recommender based on previous products ordered.
-* Clustering buyers based on their buying habits.
+* Clustering buyers based on their buying habits, or doing customer segmentation with available data.
 * Building an app that allows a user to select the item they want to model for.
 <br /></p>
 
