@@ -46,7 +46,7 @@ This was a very unique dataset - I would have liked to have additional info on t
 
 ### Software Requirements
 
-Note that some formatting for the .ipynb notebook will not render unless you run this on your local machine (rather than viewing project via github.)
+Note that some formatting for tables and vizualizations will not render unless you run this on your local machine, rather than viewing project via github.
 
 To run this code, you will need python installed (3.8.0 or higher recommended). <br />
 
