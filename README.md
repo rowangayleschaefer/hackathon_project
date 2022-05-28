@@ -113,7 +113,7 @@ Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my 
 * PCA to reduce dimensionality, given the high number of features(products) in the dataset. (Or MCA, if using boolean data.)
 * Pulling in additional data or training a model to create categories and subcategories for each item.
 * A deeper dive into feature importances for each model.
-* Look into additional strategies to balance data.
+* Look into additional strategies to balance data. This would probably help the performance of the KNN model -- since SciKitLearn's KNN class can't take   class weights as a parameter without altering the source code.
 <br />
 
 
