@@ -28,7 +28,8 @@
 ## About the Project
 
 This project was completed individually as part of a full-day hackathon for GA's Data Science Immersive. Guidelines for this project are available [here](https://github.com/rowangayleschaefer/hackathon_project/blob/main/Project-Instructions.md). 
-Project was completed in a working day (the presentation and readme were completed afterward for use in portfolio.) The .ipynb file provides summary statistics on a dataset of buyer transactions from an online retailer, and multiple machine learning models are used to predict probability of customers buying a specific item based on their past transaction history.
+
+Project was completed in a working day (the presentation and readme were completed afterward for use in portfolio.) The [.ipynb file](https://github.com/rowangayleschaefer/hackathon_project/blob/main/hackathon.ipynb) provides summary statistics on a dataset of buyer transactions from an online retailer, and multiple machine learning models are used to predict probability of customers buying a specific item based on their past transaction history.
 
 This was a very unique dataset - I would have liked to have additional info on the type of retailer this was from, because some of the products were a little strange!
 
@@ -83,14 +84,16 @@ The data I chose was a dataset on customer transactions from 2010-2011 for an on
 <!-- DATA CLEANING -->
 #### Data Cleaning & EDA
 
-Data cleaning and EDA sections are located in the first half of the .ipynb file. This section took the most time to complete. Summary statistics for purchases are provided. 
+Data cleaning and EDA sections are located in the first half of the [project file.](https://github.com/rowangayleschaefer/hackathon_project/blob/main/hackathon.ipynb) This section took the most time to complete. Summary statistics for purchases are provided. 
 
 </br><p>
 
 <!-- MODELING -->
 #### Modeling
 
-Multiple classification models are tried to predict the likelihood of a customer purchasing a popular item, 'ASSORTED COLOUR BIRD ORNAMENT' based on data about their other purchases. I chose this item because it was purchased by a large number of individual buyers, across a wide variety of countries.
+The modeling section is located in the second half of the [project file.](https://github.com/rowangayleschaefer/hackathon_project/blob/main/hackathon.ipynb)
+  
+Multiple classification models were tested to predict the likelihood of a customer purchasing a popular item, 'ASSORTED COLOUR BIRD ORNAMENT' based on data about their other purchases. I chose this item for modeling based on EDA because it was purchased by a large number of individual buyers, across a wide variety of countries.
 Preliminary models include Random Forest, SVC, Logistic Regression, and Naive Bayes, among others.
 
 Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my best model was a logistic regression with test f1 of .58 and balanced accuracy score of .77.
