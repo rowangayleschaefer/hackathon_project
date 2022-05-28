@@ -102,6 +102,7 @@ Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my 
 <div align="center"><img src='./img/modeltesting.png' height=350 width=800></div>
 <br />
 <br /></p>
+<br /></p>
 
 <!-- NEXT STEPS -->
 ### Next Steps
@@ -122,6 +123,7 @@ Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my 
 * Clustering buyers based on their buying habits, or doing customer segmentation with available data.
 * Building an app that allows a user to select the item they want to model for.
 <br /></p>
+<br /><p>
 
 
 <!-- CONTRIBUTING -->
