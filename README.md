@@ -107,7 +107,7 @@ Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my 
 
 * Attempting to further reduce bias for the two best models (logistic regression and SVC.)
 * Trying ensembling methods with best models to create a better-performing model.
-* PCA to reduce dimensionality, given the high number of features(products) in the dataset. (Or MCA, if using boolean data.)
+* PCA to reduce dimensionality, given the high number of features (products) in the dataset. Or MCA/SVC alternative, if using boolean dataset.
 * Pulling in additional data or training a model to create categories and subcategories for each item.
 * A deeper dive into feature importances for each model.
 * Look into additional strategies to balance data.
