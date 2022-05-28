@@ -93,15 +93,21 @@ Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my 
 <br /></p>
 
 <!-- NEXT STEPS -->
-#### Next Steps
+### Next Steps
+**Taking a look at preliminary models, there are a couple steps I could take next, given more time to complete the project:**
 
-Given more time to complete the project, here are some additional ideas I would have explored:
-
+* Attempting to further reduce bias for the two best models (logistic regression and SVC.)
+* Trying ensembling methods with best models to create a better-performing model.
 * PCA to reduce dimensionality, given the high number of features(products) in the dataset. (Or MCA, if using boolean data.)
+* Pulling in additional data or training a model to create categories and subcategories for each item.
 * A deeper dive into feature importances for each model.
 * Look into additional strategies to balance data.
+<br />
+
+
+**Additionally, here some other ideas that I could explore for this dataset:**
+
 * Looking at cosine similarity for products and building a product recommender based on previous products ordered.
-* Pulling in additional data or training a model to create categories and subcategories for each item.
 * Clustering buyers based on their buying habits.
 
 <br /></p>
