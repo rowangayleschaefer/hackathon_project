@@ -31,7 +31,7 @@ This project was completed individually as part of a full-day solo hackathon for
 
 Project was completed in a working day (the presentation and readme were completed afterward for use in portfolio.) The [.ipynb file](https://github.com/rowangayleschaefer/hackathon_project/blob/main/hackathon.ipynb) provides summary statistics on a dataset of buyer transactions from an online retailer, and multiple machine learning models are used to predict probability of customers buying a specific item based on their past transaction history.
 
-This was a very unique dataset - I would have liked to have additional info on the type of retailer this was from, because some of the products were a little strange!
+This was a very unique dataset - I would have liked to have additional info on the type of retailer this was from, because some of the products were unusual!
 
 <br />
 
