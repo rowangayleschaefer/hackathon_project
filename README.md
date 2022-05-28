@@ -96,11 +96,15 @@ The modeling section is located in the second half of the [project file.](https:
 Multiple classification models were tested to predict the likelihood of a customer purchasing a popular item, 'ASSORTED COLOUR BIRD ORNAMENT' based on data about their other purchases. I chose this item for modeling based on EDA because it was purchased by a large number of individual buyers, across a wide variety of countries.
 Preliminary models include Random Forest, SVC, Logistic Regression, and Naive Bayes, among others.
 
-Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my best model was a logistic regression with test f1 of .58 and balanced accuracy score of .77.
+My baseline model predicted the majority class (not buying a bird ornament), and had a f1 score of 0 and balanced accuracy of 0.50 on the testing set. 
+I had several models that outperformed the baseline: despite being overfit, the Logistic Regression performed best on the testing set, with test f1 of .58 and balanced accuracy score of .77. If revisiting this model, I would try limiting features based on the feature_importances from my Random Forest model; this may help prevent overfitting.
+The SVC model also performed well after tuning hyperparameters to prevent overfitting. 
 
 <br />
 <div align="center"><img src='./img/modeltesting.png' height=350 width=800></div>
-<br />
+<br /><br />
+
+*Of note, the KNN model performed exceptionally badly compared to other models - this is likely because SciKitLearn's KNN class can't take class weights as a parameter without altering the source code. If I had additional time and wanted to improve this model, I'd focus on using additional strategies to balance the classes in my data.*
 <br /></p>
 <br /></p>
 
@@ -108,12 +112,12 @@ Compared to the baseline model (test f1 of 0 and balanced accuracy of 0.50), my 
 ### Next Steps
 **Taking a look at preliminary models, there are a couple steps I could take next, given more time to complete the project:**
 
-* Attempting to further reduce bias for the two best models (logistic regression and SVC.)
+* Attempting to further reduce overfitting for the two best models (logistic regression and SVC), and using logistic regression with better feature selection.
 * Trying ensembling methods with best models to create a better-performing model.
 * PCA to reduce dimensionality, given the high number of features(products) in the dataset. (Or MCA, if using boolean data.)
 * Pulling in additional data or training a model to create categories and subcategories for each item.
 * A deeper dive into feature importances for each model.
-* Look into additional strategies to balance data. This would probably help the performance of the KNN model -- since SciKitLearn's KNN class can't take   class weights as a parameter without altering the source code.
+* Look into additional strategies to balance data. 
 <br />
 
 
